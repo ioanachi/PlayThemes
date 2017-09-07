@@ -33,33 +33,38 @@ body {
 }
 
 .container .title {
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
-.container .title h1{
-font-family: sans-serif;
-font-size: 55px;
-letter-spacing: 5px;
 
+.container .title h1 {
+  font-family: 'droid serif' sans-serif;
+  font-size: 55px;
+  letter-spacing: 5px;
 }
-.container .content{
+
+.container .content {
   text-align: left;
-  background-color: none ;
-  display:inline-block;
-width: 70%;
-float: left;
-border: 1px solid grey;
-padding: 15px;
-}
-.container .sidebar{
-  text-align: right;
   background-color: none;
-  display:inline-block;
-width: 23%;
-float: right;
-border: 1px solid grey;
-padding: 15px;
-
+  display: inline-block;
+  width: 70%;
+  float: left;
+  border: 1px solid grey;
+  padding: 15px;
 }
+
+.container .sidebar {
+  text-align: left;
+  background-color: red;
+  display: none;
+  width: 23%;
+  float: right;
+  padding: 15px;
+}
+
 .container .wrap{
-text-align: left;
+  text-align: left;
+}
+
+.search{
+  border: 1px solid grey;
 }
