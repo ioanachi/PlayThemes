@@ -2,6 +2,10 @@ body {
   margin: 0;
   text-align: center;
 }
+body a{
+  color: #575757;
+  text-decoration: none;
+}
 
 .full-width {
   text-align: center;
@@ -46,9 +50,9 @@ body {
   text-align: left;
   background-color: none;
   display: inline-block;
-  width: 70%;
+  width: 60%;
   float: left;
-  border: 1px solid grey;
+  border: 1px solid #e7e7e7;
   padding: 15px;
 }
 
@@ -56,18 +60,58 @@ body {
   text-align: left;
   background-color: #ffffff;
   display: inline-block;
-  width: 23%;
+  width: 33%;
   float: right;
   padding: 15px;
+
 }
 
 .container .wrap{
   text-align: left;
-
 }
 
 .search{
-  border: 1px solid grey;
+  border: 1px solid #e7e7e7;
 padding: 10px;
-
+margin-bottom: 30px;
 }
+.recentP{
+  border: 1px solid #e7e7e7;
+  position: relative;
+}
+.recentP ul{
+padding-top: 10px;
+font-size: 17px;
+}
+.recentP ul li{
+text-align: left;
+border-top: none;
+margin-top: inherit;
+padding: 0px 5px 2px 10px;
+border-bottom: 1px dotted #e7e7e7;
+}
+.recentP h2{
+text-align: center;
+display:block;
+position: absolute;
+left: 30px;
+right: 30px;
+top:-30px;
+color:#575757;
+background-color: #fff;
+}
+.recentC h2{
+  text-align: center;
+  display:block;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top:-30px;
+  color:#575757;
+  background-color: #fff;
+  }
+
+  .recentC{
+    border: 1px solid #e7e7e7;
+    position: relative;
+  }
