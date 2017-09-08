@@ -20,8 +20,10 @@ jQuery(document).ready(function() {
 
 });
 
-$('.container a.menu').hover(.colo.fadeIn(500));
-//     $('.container a.menu').(100 );
-//     $('.container a.menu').fadeIn( 500 );
-// });
+$('.container a.menu').hover(function(){
+      $('.container a.menu').css("color", "red");
+    }, function(){
+      $('.container a.menu').css("color", "fff");
+
+});
 console.log("martini");
