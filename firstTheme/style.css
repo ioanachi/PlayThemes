@@ -28,6 +28,7 @@ body a {
 }
 
 .full-width .container ul li a {
+
   color: #ffffff;
   text-decoration: none;
 }
@@ -70,7 +71,7 @@ body a {
 .container .sidebar h2 {
   font-family: 'Droid Serif', sans-serif;
   font-size:18px;
-  font
+
 }
 .container .sidebar ul li {
 
@@ -239,8 +240,8 @@ width: 200px;
 height: 80px;
 color: #fff;
 }
-.menu:hover {
-    color: #e60d0d;
+.full-width .container ul li a.menu:hover{
+    color: #a8a8a8;
 }
 
 input.checkbox{
