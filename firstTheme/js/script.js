@@ -19,11 +19,22 @@ jQuery(document).ready(function() {
 
 
 });
-
+var mouse = true;
 $('.container a.menu').hover(function(){
-      $('.container a.menu').css("color", "red");
-    }, function(){
-      $('.container a.menu').css("color", "fff");
+if(mouse){
+  .css("color", "yellow");
+}
+else{
+  .css("color", "#fff");
+}
 
 });
+
+
+  // ".css("color", "red")", ".css("color", "#fff")");
+//       $('.container a.menu').css("color", "red");
+//     }, function(){
+//       $('.container a.menu').css("color", "fff");
+//
+// });
 console.log("martini");

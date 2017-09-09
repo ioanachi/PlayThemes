@@ -239,6 +239,10 @@ width: 200px;
 height: 80px;
 color: #fff;
 }
+.menu:hover {
+    color: #e60d0d;
+}
+
 input.checkbox{
 
 
