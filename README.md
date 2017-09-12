@@ -4,7 +4,7 @@ Certain packages need to be installed in order for webpack configuration to run.
 
 ***``` npm install ```***
 
-# Make sure you are inside the firstTheme directory when you run the command !!!
+Make sure you are inside the firstTheme directory when you run the command
 
 # Start (run) the project
 
