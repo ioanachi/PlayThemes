@@ -1,18 +1,18 @@
-## Install
+# Install project
 
 Certain packages need to be installed in order for webpack configuration to run. to install, just run:
 
 ***``` npm install ```***
 
-_Make sure you are inside the firstTheme directory when you run the command !!!_
+# Make sure you are inside the firstTheme directory when you run the command !!!
 
-### Start
+# Start (run) the project
 
 To start the project run the following command:
 
 ***``` npm run dev ```***
 
-### Update
+# Update packages
 
 Just to make sure all the packages are installed you can run an update for the project any now and then. To do that you need to run:
 
