@@ -1,0 +1,12 @@
+body{
+text-align: center;
+background-color: white;
+}
+body a {
+  color: #575757;
+  text-decoration: none;
+}
+.full-width {
+  text-align: center;
+  background-color: white;
+  color: black;
