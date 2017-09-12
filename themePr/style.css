@@ -10,13 +10,30 @@ body a {
   text-align: center;
   background-color: white;
   color: black;
+  margin: 0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
+
+}
+
+.container .pic p{
+float:left;
+border: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+background-color: #bef3ff;
+
+}
+.container .paragraf{
+float:right;
+background-color: #bef3ff;
+
+
+}
+
+#book{
+color: red;
 }
 
 
-.container p{
-display:;
-
-}
 .full-width .container ul li {
  display: inline-block;
   color: red;
@@ -24,4 +41,17 @@ display:;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1.5px;
+}
+.img{
+margin: 0px 0px 0px 0px;
+padding-left: 0px;
+padding-right: 0px;
+border-left: 0px;
+background-size: 100% 100%;
+height: auto;
+max-width: 100%;
+}
+
+
+
 }
