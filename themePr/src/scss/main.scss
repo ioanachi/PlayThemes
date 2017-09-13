@@ -36,6 +36,7 @@ body {
         text-transform: none;
         font-size: 17px;
         letter-spacing: 1.5px;
+
       }
     }
   }
@@ -47,17 +48,39 @@ body {
 
   .img {
     margin: 0;
-    padding-left: 0;
-    padding-right: 0;
-    border-left: 0;
-    background-size: 100% 100%;
-    height: auto;
-    max-width: 100%;
+    padding-left:-10px;
+
+    // background: url( ../../src/img/pic1.jpg);incercat si cu ele si nu a mers
+    // ce ai facut in index?
+    //pai......
+    // intai, i-am dat height si width
+    //care nu merge fara display:inline-block;
+    //in index nu am facut nimic
+    // apoi i-am dat restart la server ca nu stiu ce nu facea refresh
+    // dar cam atat am facut:
+    background: url("../../src/img/pic1.jpg");
+    height:600px;
+    width:100%;
+    display: inline-block;
+
   }
 
   .box {
+    background-color: blue;
+    height: 100px;
+    width: 80%;
+    display: ce
     ul {
+      float: left;
       li {
+        display:list-item;
+
+        background-color: black;
+        list-style-type: none;
+         height: 50px;
+         width: 80px;
+
+
         &:nth-child(1) {
           text-transform: none;
           font-size: 25px;
