@@ -56,7 +56,8 @@ body {
     //in index nu am facut nimic
     // apoi i-am dat restart la server ca nu stiu ce nu facea refresh
     // dar cam atat am facut:
-    background: url("../../src/img/pic1.jpg");
+    background: url("../../src/img/pic1.jpg") no-repeat;
+    background-size: cover;
     height: 600px;
     width: 100%;
     display: inline-block;
@@ -76,7 +77,6 @@ body {
         float: right;
         background-color: red;
         color: white;
-
       }
     }
 
@@ -105,32 +105,42 @@ body {
           letter-spacing: 1.5px;
         }
       }
+
+      &.guest {
+        li {
+          ul {
+            display: none;
+          }
+
+          &:hover {
+            ul {
+              display: block;
+            }
+          }
+        }
+      }
     }
   }
-.titleS{
-  margin: auto;
-  background-color: white;
-margin-top:150px;
-text-transform:capitalize;
-width: 900px;
 
-h4{
-  color:orange
-}
-h5{
-  margin-top: 25px;
-}
-button{
-  color:red;
-  border: 1.5px;
-  border-color: red;
-}
+  .titleS {
+    margin: auto;
+    background-color: white;
+    margin-top: 150px;
+    text-transform: capitalize;
+    width: 900px;
 
-}
+    h4 {
+      color: orange;
+    }
 
+    h5 {
+      margin-top: 25px;
+    }
 
-
-
-
-
+    button {
+      color: red;
+      border: 1.5px;
+      border-color: red;
+    }
+  }
 }
