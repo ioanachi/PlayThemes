@@ -143,4 +143,26 @@ body {
       border-color: red;
     }
   }
+// nu merge ca padding sa fie 0
+  .container {
+    .firstImg {
+      padding-right: 0px;
+      margin-right: 0px;
+    }
+    .secondImg{
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    height: 20%;
+  }
+   .thirdImg{
+     padding-right: 0px;
+     margin-right: 0px;
+     padding-left: 0px;
+     margin-left: 0px;
+
+   }
+  }
 }
+//
