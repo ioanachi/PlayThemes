@@ -141,17 +141,16 @@ body {
       color: red;
       border: 1.5px;
       border-color: red;
+      margin: 20px 0 40px;
     }
   }
   // nu merge ca padding sa fie 0
-
   .container {
     padding-top: 20px;
     padding-bottom: 20px;
 
-
-     .orange {
-       height:70px;
+    .orange {
+      height: 70px;
 
       .firstImg {
         padding-right: 0;
@@ -172,21 +171,41 @@ body {
         padding-left: 0;
         margin-left: 0;
       }
-      }
-    .fourthImg{
-        padding-right: 0;
-        margin-right: 0;
-        padding-left: 0;
-        margin-left: 0;
+    }
 
-      }
-    .fifthImg{
-        padding-right: 0;
-        margin-right: 0;
-        padding-left: 0;
-        margin-left: 0;
-      }
+    .fourthImg {
+      padding-right: 0;
+      margin-right: 0;
+      padding-left: 0;
+      margin-left: 0;
+    }
 
+    .fifthImg {
+      padding-right: 0;
+      margin-right: 0;
+      padding-left: 0;
+      margin-left: 0;
+    }
+  }
+
+  .container {
+    .explore {
+      color: #f94343;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 3px;
+      font-size: 19px;
+
+      font-family: serif;
+    }
+
+    h2 {
+      letter-spacing: 1px;
+      font-weight: bold;
+      font-size: 40px;
+
+
+    }
   }
 }
 //
