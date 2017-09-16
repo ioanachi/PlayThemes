@@ -143,29 +143,50 @@ body {
       border-color: red;
     }
   }
-// nu merge ca padding sa fie 0
+  // nu merge ca padding sa fie 0
+
   .container {
     padding-top: 20px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 
-    .firstImg {
-      padding-right: 0px;
-      margin-right: 0px;
-    }
-    .secondImg{
-    padding-right: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    margin-left: 0px;
-    // height:300px;
-  }
-   .thirdImg{
-     padding-right: 0px;
-     margin-right: 0px;
-     padding-left: 0px;
-     margin-left: 0px;
 
-   }
+     .orange {
+       height:70px;
+
+      .firstImg {
+        padding-right: 0;
+        margin-right: 0;
+      }
+
+      .secondImg {
+        padding-right: 0;
+        margin-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+        // height:300px;
+      }
+
+      .thirdImg {
+        padding-right: 0;
+        margin-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+      }
+      }
+    .fourthImg{
+        padding-right: 0;
+        margin-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+
+      }
+    .fifthImg{
+        padding-right: 0;
+        margin-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+      }
+
   }
 }
 //
