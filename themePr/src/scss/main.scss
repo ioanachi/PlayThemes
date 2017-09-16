@@ -145,6 +145,9 @@ body {
   }
 // nu merge ca padding sa fie 0
   .container {
+    padding-top: 20px;
+    padding-bottom:20px;
+
     .firstImg {
       padding-right: 0px;
       margin-right: 0px;
@@ -154,7 +157,7 @@ body {
     margin-right: 0px;
     padding-left: 0px;
     margin-left: 0px;
-    height: 20%;
+    // height:300px;
   }
    .thirdImg{
      padding-right: 0px;
