@@ -1,11 +1,13 @@
 body {
   background: grey;
+  text-align: center;
 }
 .menuBar{
   background: black;
   display: flex;
-  margin
+  min-width: 2000px;
 }
+
 .menu ul{
   margin-left: 100px;
   float: right;
@@ -24,6 +26,12 @@ margin-left: 40px;
 .logoImg{
   padding: 2px solid black;
 }
-/*.imageMiddle{*/
-  /*background-image: url(src/img/imageMiddle.jpg);*/
-/*}*/
+
+.imageMiddle{
+  background: black;
+}
+.continut{
+  background: white;
+
+  text-align: center;
+}
