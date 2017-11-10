@@ -2,36 +2,43 @@ body {
   background: grey;
   text-align: center;
 }
-.menuBar{
+
+.menuBar {
   background: black;
   display: flex;
   min-width: 2000px;
 }
 
-.menu ul{
+.menu ul {
   margin-left: 100px;
   float: right;
 }
-.menu li{
-display: inline-block;
-padding-top: 0;
-list-style-type: none;
 
+.menu li {
+  display: inline-block;
+  padding-top: 0;
+  list-style-type: none;
 }
-.menu li a{
+
+.menu li a {
   font-size: 12px;
   color: white;
-margin-left: 40px;
+  margin-left: 40px;
 }
-.logoImg{
+
+.logoImg {
   padding: 2px solid black;
 }
 
-.imageMiddle{
-  background: black;
+.imageMiddle {
+  background: #191A1E;
 }
-.continut{
-  background: white;
 
+.continut {
+  background: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   text-align: center;
 }
