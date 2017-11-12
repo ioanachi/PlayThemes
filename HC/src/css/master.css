@@ -2,7 +2,9 @@ body {
   background: grey;
   text-align: center;
 }
-
+.before{
+  background: black;
+}
 .menuBar {
   background: black;
   display: flex;
@@ -26,15 +28,31 @@ body {
   margin-left: 40px;
 }
 
-.logoImg {
+.menu.logoImg {
   padding: 2px solid black;
 }
 
 .imageMiddle {
-  background: #191A1E;
+  background: url('../img/imageMiddle.jpg') no-repeat;
+ height: 737px;
+background-position: center;
+background-size: cover;
 }
+.buttonTransp{
+  background: none;
+  float: left;
+  margin-left: 410px;
+  border-radius: 17px;
+  border: solid 1px white;
+  margin-top: 461px;
+  min-height: 53px;
+  min-width: 159px;
+  color: white;
 
-.continut {
+
+
+}
+.container .continut {
   background: white;
   align-items: center;
   display: flex;
